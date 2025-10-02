@@ -1,14 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 16px; 
-    background-color: #e5e7eb
+body{
+  font-family: "Courier New", monospace;
+  margin: 20px;
+  background:#fefefe;
+  color:#111;
 }
-button {
-    padding: 8px 12px; 
-    
+
+button{
+  padding:6px 10px;
+  border:none;
+  background:#b54bd3;
+  color:#fff;
+  border-radius:4px;
+  cursor:pointer;
 }
-p { 
-    background: #f8fafc;
-    padding: 6px; 
-    border: 1px solid #e5e7eb; 
+button:hover{
+  background:#6d35a8;
+}
+
+p{
+  background:#fff8e1;
+  border:2px solid #f0c14b;
+  padding:10px;
+  margin:8px 0;
 }

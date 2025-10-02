@@ -1,21 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 16px; 
-    background-color: #e5e7eb
+  font-family: "Georgia", serif;
+  margin: 20px;
+  background: #fffdf7;
+  color: #222;
 }
+
 button {
-    padding: 8px 12px; 
-    
+  padding: 10px 14px;
+  border: 1px solid #444;
+  background: #fafafa;
+  cursor: pointer;
+  font-size: 14px;
 }
-p { 
-    background: #f8fafc;
-    padding: 6px; 
-    border: 1px solid #e5e7eb; 
+button:hover {
+  background: #ddd;
 }
+
+p {
+  background: #fff;
+  padding: 10px;
+  border-left: 4px solid #444;
+  margin: 8px 0;
+}
+
 li.done .text {
-  color: green;
+  color: #007acc;
+  text-decoration: underline;
 }
+
 li.done button[aria-label="Marcar realizada"] {
-  background-color: orange;
-  color: white;
+  background: #222;
+  color: #f9f9f9;
+  border: none;
 }

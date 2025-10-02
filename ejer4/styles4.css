@@ -1,14 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 16px; 
-    background-color: #e5e7eb
+  font-family: Verdana, Geneva, sans-serif;
+  background: #5e4967;
+  color: #eee;
+  margin: 0;
+  padding: 20px;
 }
+
 button {
-    padding: 8px 12px; 
-    
+  padding: 10px 16px;
+  border: none;
+  background: #eee;
+  color: #44304b;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 }
-p { 
-    background: #f8fafc;
-    padding: 6px; 
-    border: 1px solid #e5e7eb; 
+button:hover {
+  background: #ccc;
+}
+
+p {
+  background: transparent;
+  border-bottom: 2px solid #eee;
+  padding: 8px 0;
+  margin: 12px 0;
 }
