@@ -1,37 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ejercicios DOM — Rediseño</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ejercicios DOM — Rediseño</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <h1>Ejercicios DOM</h1>
-    <a id="open-new" class="open-btn" href="#" target="_blank" rel="noopener">
-      Abrir en pestaña
-    </a>
-  </header>
+<header class="topbar">
+  <div>
+    <h1><span>Ejercicios</span> DOM</h1>
+  </div>
+  <a href="#" id="open-new" class="open-btn" rel="noopener" target="_blank">Abrir en pestaña</a>
+</header>
 
-  <nav class="tabs">
-    <ul id="menu-ejercicio">
-      <li><a href="#eje01" data-href="eje01/ejer1.html" class="tab-link active">1 — Selección</a></li>
-      <li><a href="#eje02" data-href="eje02/ejer2.html" class="tab-link">2 — Modificar</a></li>
-      <li><a href="#eje03" data-href="eje03/ejer3.html" class="tab-link">3 — Crear/Eliminar</a></li>
-      <li><a href="#eje04" data-href="eje04/ejer4.html" class="tab-link">4 — Reemplazar</a></li>
-      <li><a href="#eje05" data-href="eje05/ejer5.html" class="tab-link">5 — Eventos</a></li>
-      <li><a href="#eje06" data-href="eje06/ejer6.html" class="tab-link">6 — Tareas</a></li>
-    </ul>
-  </nav>
+<nav class="tabs">
+  <ul id="menu-ejercicio">
+    <li><a class="tab-link active" data-href="ejer1/ejer1.html" href="#ejer1">1 — Selección</a></li>
+    <li><a class="tab-link" data-href="ejer2/ejer2.html" href="#ejer2">2 — Modificar</a></li>
+    <li><a class="tab-link" data-href="ejer3/ejer3.html" href="#ejer3">3 — Crear/Eliminar</a></li>
+    <li><a class="tab-link" data-href="ejer4/ejer4.html" href="#ejer4">4 — Reemplazar</a></li>
+    <li><a class="tab-link" data-href="ejer5/ejer5.html" href="#ejer5">5 — Eventos</a></li>
+    <li><a class="tab-link" data-href="ejer6/ejer6.html" href="#ejer6">6 — Tareas</a></li>
+  </ul>
+</nav>
 
-  <main class="viewer">
-    <div class="card">
-      <iframe id="visor" src="eje01/ejer1.html" title="Visor de ejercicio"></iframe>
-    </div>
-    <noscript>Activa JavaScript para ver los ejercicios.</noscript>
-  </main>
+<main class="viewer">
+  <noscript>Activa JavaScript para ver los ejercicios.</noscript>
+  <div class="card">
+    <iframe id="visor" title="Visor de ejercicio" src="eje01/ejer1.html"></iframe>
+  </div>
+</main>
 
-  <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
